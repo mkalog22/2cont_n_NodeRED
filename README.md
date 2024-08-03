@@ -1,7 +1,8 @@
-This repository contains a project that uses Docker to run a Flask app and Node-RED with MongoDB. 
+This is a project that uses Docker to run a Flask app and Node-RED with MongoDB. 
 
-This project demonstrates a multi-container application using Docker, 
-which includes a Flask application, MongoDB database, and Node-RED. We created three containers in total: 
+It is a multi-container application using Docker, which includes a Flask application, MongoDB database, and Node-RED. 
+
+Three containers were created in total: 
 
 1. MongoDB: A NoSQL database container to store data.
    
@@ -11,6 +12,5 @@ which includes a Flask application, MongoDB database, and Node-RED. We created t
    which we used to create a flow that makes HTTP requests to the Flask API and processes the data.
 
 The Flask application populates the MongoDB database with sample data and provides an endpoint to aggregate this data.
-
 
 Node-RED is used to create and visualize data flows, making HTTP requests to the Flask API and displaying the results in its debug pane.
